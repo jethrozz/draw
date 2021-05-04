@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-05-04T05:38:05.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" version="14.6.9" etag="FjXqoQri3Vj_2tBSGzrq" type="github"><diagram id="3OGSK-VGJQWmC8pFGijX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-04T05:47:39.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="dW-HCF_yEPHH0WryMraL" version="14.6.9" type="github">
+  <diagram id="3OGSK-VGJQWmC8pFGijX" name="Page-1">
+    <mxGraphModel dx="2302" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Node&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-3" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;volatile int &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;waitStatus&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-4" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;volatile &lt;/span&gt;Node &lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;prev&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="145" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-5" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Node &lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;nextWaiter&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-6" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;volatile &lt;/span&gt;Thread &lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;thread&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YrET58iZ-3WtQUSdW1I-7" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;volatile &lt;/span&gt;Node &lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;next&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
