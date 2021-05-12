@@ -1,1 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T03:43:11.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" version="14.6.11" etag="mfygDOmTo3LdSlRzVVQW" type="github"><diagram id="ev8Z6Rv90-0FATLCqt6A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-12T01:55:44.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="rUgjU9bKp2vadljSYVst" version="14.6.11" type="github" pages="2">
+  <diagram id="ev8Z6Rv90-0FATLCqt6A" name="Page-1">
+    <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tww50HIyEpVsTTjYHsku-11" value="数据中台" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="80" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-12" value="苍穹数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="330" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-13" value="不同的表单对于中台来讲就是不同的模型，每个表单填报的数据都会在中台处对应的模型保存一份" style="text;html=1;strokeColor=none;fillColor=#FFFF66;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="80" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-14" value="每个表单填报的数据都会在中台处对应的模型保存一份，同时数据库中会保存一份填报记录，方便后续去中台查找数据" style="text;html=1;strokeColor=none;fillColor=#FFFF66;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="330" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-15" target="tww50HIyEpVsTTjYHsku-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-15" value="表单设计者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-18" target="tww50HIyEpVsTTjYHsku-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-18" value="设计/修改表单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-20" target="tww50HIyEpVsTTjYHsku-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-20" value="触发保存操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="364" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-22" target="tww50HIyEpVsTTjYHsku-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-22" value="解析表单数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-24" target="tww50HIyEpVsTTjYHsku-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-24" value="生成数据库要保存的数据对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="770" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-26" target="tww50HIyEpVsTTjYHsku-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-26" value="生成数据中台要保存的数据对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.009;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00CC00;curved=1;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-28" target="tww50HIyEpVsTTjYHsku-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="180" />
+              <mxPoint x="1240" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-28" target="tww50HIyEpVsTTjYHsku-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-28" value="保存表单/字段/分组信息至数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;strokeColor=#00CC00;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-31" target="tww50HIyEpVsTTjYHsku-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-31" value="在中台创建该表单模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-34" target="tww50HIyEpVsTTjYHsku-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-34" value="表单填报者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-35" target="tww50HIyEpVsTTjYHsku-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-35" value="填报表单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-36" value="修改表单时，如果该表单是未填报状态，那么表示可以修改字段，则系统会重新在中台生成新的模型。" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="95" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-37" value="在生成数据库表单数据库数据对象时，会生成一个编码，这个编码便是中台模型的标识，名称一致。" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-50" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-38" target="tww50HIyEpVsTTjYHsku-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-38" value="触发保存操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-39" target="tww50HIyEpVsTTjYHsku-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-39" value="解析表单数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-40" target="tww50HIyEpVsTTjYHsku-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-40" value="生成数据库要保存的数据对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="770" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-41" value="表单填报记录、历史指标值" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-43" target="tww50HIyEpVsTTjYHsku-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-43" value="生成数据中台要保存的数据对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="950" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-44" value="向通过formHead可以知道中台的对应的模型，向该模型插入数据，数据库中的表单填报记录的ffpk字段与中台那边该模型的ffpk字段一一对应，通过ffpk和模型标识就可以查询到数据" style="text;html=1;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="670" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-45" target="tww50HIyEpVsTTjYHsku-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#007FFF;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-45" target="tww50HIyEpVsTTjYHsku-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-45" value="保存填报记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#007FFF;curved=1;" edge="1" parent="1" source="tww50HIyEpVsTTjYHsku-46" target="tww50HIyEpVsTTjYHsku-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tww50HIyEpVsTTjYHsku-46" value="保存模型数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1cnmImq1GdV8AeUqp91X" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XSXfu20zo7NkGGk4eSIl-0" />
+        <mxCell id="XSXfu20zo7NkGGk4eSIl-1" parent="XSXfu20zo7NkGGk4eSIl-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
